@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcualtor</title>
+</head>
+<body>
+    <link rel="stylesheet" href="calculator.css">
+    <div class="main">
+        <div class="head1">
+            <input type="text" id="disp" class="digital-clock">
+        </div>
+        <div class="num">
+            <!--first row-->
+            <button class="btn1" onclick="btnclick(7)">7</button>
+            <button class="btn1" onclick="btnclick(8)">8</button>
+            <button class="btn1" onclick="btnclick(9)">9</button>
+            <button class="btn1" onclick="btnclick(4)">4</button>
+            <!--second row-->
+            <button class="btn1" onclick="btnclick(5)">5</button>
+            <button class="btn1" onclick="btnclick(6)">6</button>
+            <button class="btn1" onclick="btnclick(3)">3</button>
+            <button class="btn1" onclick="btnclick(2)">2</button>
+            <!--third row-->
+            <button class="btn1" onclick="btnclick(1)">1</button>
+            <button class="btn1" onclick="dlt()">C</button>
+            <button class="btn1" onclick="btnclick(0)">0</button>
+            <button class="btn1" onclick="btnclick('.')">.</button>
+        </div>
+        <div class="operations">
+            <button class="btn2" onclick="btnclick('*')">x</button>
+            <button class="btn2" onclick="btnclick('/')">/</button>
+            <button class="btn2" onclick="btnclick('+')">+</button>
+            <button class="btn2" onclick="btnclick('-')">-</button>
+            <button class="btn2" onclick="oper('=')">=</button>
+            
+            
+
+        </div>
+      
+    </div>
+<script src="calcualator.js"></script>
+</html>
+
+
+
+
+
+
+
